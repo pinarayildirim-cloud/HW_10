@@ -1,0 +1,16 @@
+  221  git rm --cached text_ignore.txt
+  222  git commit -m "remove text_ignore.txt from tracking"
+  223  git status
+  224  touch main_test.txt
+  225  git add .
+  226  git commit -m "add main_test.txt"
+  227  git checkout -b develop
+  228  touch develop_test.txt
+  229  git add .
+  230  git commit -m "add develop_test.txt"
+  231  git status
+  232  git add .
+  233  git commit -m "update develop_test.txt"
+  234  git checkout main
+  235  git merge develop
+  236  git log --oneline
