@@ -1,3 +1,13 @@
+  211  git clone https://github.com/pinarayildirim-cloud/HW_10.git
+  212  cd HW_10
+  213  text_ignore.text
+  214  text_ignore.txt
+  215  touch text_ignore.txt
+  216  echo "text_ignore.txt" >> .gitignore
+  217  cat .gitignore
+  218  git status
+  219  git add .
+  220  git commit -m "add gitignore file"
   221  git rm --cached text_ignore.txt
   222  git commit -m "remove text_ignore.txt from tracking"
   223  git status
@@ -14,3 +24,33 @@
   234  git checkout main
   235  git merge develop
   236  git log --oneline
+  237  history > command_list.csv
+  238  git add .
+  239  git commit -m "add command list"
+  240  git push origin main
+  241  ls  -l
+  242  git push
+  243  git pull
+  244  git push
+  245  git commit -m "gitignore file update"
+  246  nano text_ignore.txt
+  247  git commit -m "gitignore file update"
+  248  git add .
+  249  git commit -m "gitignore file update"
+  250  cat text_ignore.txt
+  251  nano text_ignore.txt
+  252  cat text_ignore.txt
+  253  git add .
+  254  git commit -m "gitignore file update"
+  255  history
+  256  man history
+  257  history --help\\n
+  258  history --help
+  259  history ?
+  260  man history
+  261  history 100
+  262  nano .gitignore
+  263  history 100
+  264  rm command_list.csv
+  265  history 50
+  266  history 211
